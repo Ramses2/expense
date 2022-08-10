@@ -18,15 +18,15 @@ function ManageExpense({route, navigation}) {
 
     
     function deleteExpenseHandler() {
-
+        navigation.goBack();
     }
 
     function cancelHandler() {
-
+        navigation.goBack();
     }
 
     function confirmHandler() {
-
+        navigation.goBack();
     }
 
 
